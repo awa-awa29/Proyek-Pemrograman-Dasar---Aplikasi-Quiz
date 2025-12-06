@@ -10,6 +10,8 @@
 using namespace std;
 
 int main () {
+
+    while (true) {
     user User;
     quiz Quiz("Games Quiz");
 
@@ -89,5 +91,10 @@ int main () {
         S.start();
     }
 
+    // Kembali ke Menu Register
+    cout << "\nTekan ENTER untuk kembali ke menu REGISTER";
+    cin.ignore();
+    cin.get();
+}
     return 0;
 }
